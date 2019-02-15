@@ -1,0 +1,25 @@
+@import 'src/assets/sass/_variables.scss';
+
+.App {
+  width: 100%;
+  max-width: 1600px;
+  margin: 20px auto;
+  background: #f6f6ef;
+}
+
+.App-header {
+  padding: 5px;
+}
+
+.App-logo {
+  display: inline-block;
+  width: 25px;
+  margin-right: 10px;
+  border: 1px solid $color-blue-dark;
+  color: $color-blue-dark;
+  text-align: center;
+}
+
+.App-title {
+  font-weight: bold;
+}
