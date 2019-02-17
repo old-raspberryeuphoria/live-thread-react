@@ -8,7 +8,9 @@
 }
 
 .App-header {
-  padding: 5px;
+  background: $color-red;
+  padding: 10px;
+  color: $color-blue-dark;
 }
 
 .App-logo {
@@ -16,10 +18,22 @@
   width: 25px;
   margin-right: 10px;
   border: 1px solid $color-blue-dark;
-  color: $color-blue-dark;
   text-align: center;
 }
 
 .App-title {
   font-weight: bold;
+
+  a {
+    color: $color-blue-dark;
+  }
+}
+
+.App-submit {
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+.App-main {
+  padding: 10px;
 }

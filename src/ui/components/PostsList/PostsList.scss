@@ -1,0 +1,17 @@
+@import 'src/assets/sass/_variables.scss';
+
+.PostsList-postrow {
+  display: flex;
+  align-items: top;
+  margin-top: 5px;
+
+  &:last-of-type {
+    margin-bottom: 5px;
+  }
+}
+
+.PostsList-postrow-index {
+  margin-right: 5px;
+  color: $color-grey;
+  font-size: 13px;
+}

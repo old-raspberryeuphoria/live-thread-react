@@ -1,0 +1,22 @@
+@import 'src/assets/sass/_variables.scss';
+
+.CommentForm {
+  textarea {
+    display: block;
+    margin: 10px 0;
+    min-width: 500px;
+    min-height: 125px;
+  }
+}
+
+.CommentForm-alert {
+  font-size: 13px;
+}
+
+.CommentForm-alert-success {
+  color: #3fa71d;
+}
+
+.CommentForm-alert-error {
+  color: #a71d1d;
+}

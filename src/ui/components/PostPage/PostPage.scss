@@ -1,0 +1,35 @@
+@import 'src/assets/sass/_variables.scss';
+
+.PostPage {
+  font-size: 15px;
+}
+
+.PostPage-op {
+  max-width: 75%;
+  margin-top: 20px;
+  padding: 10px;
+  background: #eaeaea;
+  border: 1px solid $color-grey;
+  border-radius: 10px;
+}
+
+.PostPage-comments {
+  margin-top: 20px;
+}
+
+.PostPage-comment {
+  margin-bottom: 10px;
+
+  &:last-of-type {
+    margin: 0;
+  }
+}
+
+.PostPage-comment-header {
+  color: $color-grey;
+  font-size: 13px;
+}
+
+.PostPage-authorname {
+  color: $color-blue-dark;
+}

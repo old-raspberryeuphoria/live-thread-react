@@ -1,0 +1,29 @@
+@import 'src/assets/sass/_variables.scss';
+
+.PostLink-details,
+.PostLink-domain {
+  color: $color-grey;
+  font-size: 13px;
+}
+
+.PostLink-title {
+  font-size: 15px;
+  
+  a {
+    color: $color-blue-dark;
+  }
+}
+
+.PostLink-details {
+  a {
+    color: $color-grey;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.PostLink-authorname {
+  color: $color-blue-dark;
+}
